@@ -1,0 +1,63 @@
+/* #region CSS reset */
+*,
+*:after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-size: 100%;
+  list-style-type: none;
+}
+/* #endregion */
+
+/* #region Header */
+.header-bg {
+  background-color: #000;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-primaria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.nav-primaria a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 8px 2px;
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+}
+
+.nav-primaria a::after {
+  content: "";
+  display: block;
+  margin-top: 4px;
+  height: 2px;
+  width: 0px;
+  background: #ffffff;
+  transition: 0.4s;
+  position: absolute;
+}
+
+.nav-primaria a:hover:after {
+  width: 100%;
+}
+/* #endregion*/
