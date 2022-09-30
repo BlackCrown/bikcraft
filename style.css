@@ -23,6 +23,9 @@ img {
 }
 /* #endregion */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800;900&family=Poppins:wght@200;400;600;700;900&display=swap");
+
 /* #region Header */
 .header-bg {
   background-color: #000;
@@ -47,6 +50,8 @@ img {
 }
 
 .nav-primaria a {
+  font-family: "Poppins";
+  font-weight: 200;
   display: inline-block;
   color: #ffffff;
   padding: 8px 2px;
@@ -70,6 +75,9 @@ img {
   width: 100%;
 }
 /* #endregion*/
+body {
+  height: 5000px;
+}
 
 /* #region Introducao */
 .introducao-bg {
@@ -78,6 +86,7 @@ img {
   border-radius: 12px 12px 200px 12px;
   max-height: 600px;
   max-width: 1600px;
+  margin-bottom: 300px;
 }
 
 .introducao-container {
@@ -113,10 +122,11 @@ img {
   color: #2b2b2b;
 }
 
-.introducao-btn {
+.btn {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 18px;
+  text-align: center;
   background-image: linear-gradient(#ffbf00 47.4%, #ce8900 90%);
   padding: 10px 24px;
   border-radius: 8px;
@@ -129,6 +139,77 @@ img {
   max-width: 86%;
 }
 /* #endregion Introducao */
+
+/* #region Bicicletas*/
+.bicicletas h2 {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 60px;
+  padding-left: 200px;
+  padding-top: 12px;
+}
+
+.bicicletas {
+  margin: 0 auto;
+  background: #dedede;
+  padding: 0 260px;
+  padding-bottom: 80px;
+}
+
+.flex-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: rap;
+  justify-content: space-around;
+  gap: 120px;
+}
+
+.list-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  max-width: 650px;
+  padding: 40px 60px;
+}
+
+.item-list {
+  background: #8b8b8b;
+  border-radius: 16px;
+}
+
+.item-list .list-img {
+  grid-column: 1 / 3;
+  object-fit: cover;
+  object-position: top;
+}
+
+.item-list .list-img img {
+  border-radius: 16px;
+}
+
+.item-list h6 {
+  font-size: 24px;
+}
+
+.item-list .btn {
+  grid-column: 2 / 3;
+  font-size: 18px;
+  padding: 8px 24px;
+}
+
+.item-list p {
+  grid-column: 1 / 3;
+  color: #dedede;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.item-list .preco {
+  grid-column: 1 / 2;
+  font-size: 18px;
+}
+/* #endregion Bicicletas*/
 
 /* #region Responsivo */
 @media (max-width: 1700px) {
