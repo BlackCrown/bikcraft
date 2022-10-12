@@ -1,0 +1,48 @@
+:root {
+  /* Cores primarias. cores fortes */
+  --cor-p1: #f5b400;
+  --cor-p2: #e39d15;
+  --cor-p3: #ba7c00;
+  --cor-p4: #946300;
+  --cor-p5: #332200;
+
+  /* cores de back ground */
+  --cor-bg1: #ffffff;
+  --cor-bg2: #f5f5f5;
+  --cor-bg3: #2b2b2b;
+  --cor-bg12: #000000;
+
+  /* cores secundarias para contraste */
+  --cor-s1: #ffffff;
+  --cor-s2: #f5f5f5;
+  --cor-s3: #dedede;
+  --cor-s4: #bababa;
+  --cor-s5: #a3a3a3;
+  --cor-s6: #919191;
+  --cor-s7: #696969;
+  --cor-s8: #545454;
+  --cor-s9: #404040;
+  --cor-s10: #2b2b2b;
+  --cor-s11: #171717;
+  --cor-s12: #000000;
+}
+
+.cor-p1 {
+  color: var(--cor-p1);
+}
+
+.cor-p2 {
+  color: var(--cor-p2);
+}
+
+.cor-p3 {
+  color: var(--cor-p3);
+}
+
+.cor-p4 {
+  color: var(--cor-p4);
+}
+
+.cor-p5 {
+  color: var(--cor-p5);
+}

@@ -1,0 +1,28 @@
+/* #region CSS reset */
+*,
+*:after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-size: 100%;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+/* #endregion */
+
+body {
+  height: 5000px;
+}

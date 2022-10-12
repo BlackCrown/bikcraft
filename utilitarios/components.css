@@ -1,0 +1,26 @@
+.btn {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  background-image: linear-gradient(#ffbf00 47.4%, #ce8900 90%);
+  padding: 10px 18px;
+  border-radius: 8px;
+  display: inline-block;
+  color: var(--cor-s12);
+}
+
+@media (max-width: 1300px) {
+  .btn {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn {
+    font-size: 12px;
+  }
+}
