@@ -8,8 +8,11 @@
   line-height: 0.87;
 }
 
-/* .fonte-media {
-} */
+.fonte-media {
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: 700;
+}
 
 .fonte-pequena {
   font-family: "Fira Sans";
@@ -23,12 +26,19 @@
   .fonte-grande {
     font-size: 60px;
   }
+  .fonte-media {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 1300px) {
   .fonte-grande {
     font-size: 40px;
     margin-bottom: 16px;
+  }
+
+  .fonte-media {
+    font-size: 38px;
   }
 
   .fonte-pequena {
@@ -38,6 +48,10 @@
 }
 
 @media (max-width: 1000px) {
+  .fonte-media {
+    font-size: 32px;
+  }
+
   .fonte-pequena {
     font-size: 20px;
   }
@@ -46,6 +60,10 @@
 @media (max-width: 800px) {
   .fonte-grande {
     font-size: 32px;
+  }
+
+  .fonte-media {
+    font-size: 28px;
   }
 
   .fonte-pequena {

@@ -1,0 +1,174 @@
+/* #region Bicicletas*/
+.bicicletas h2 {
+  padding-bottom: 60px;
+  padding-left: 200px;
+  padding-top: 12px;
+}
+
+.bicicletas {
+  margin: 0 auto;
+  background: var(--cor-s3);
+  padding: 0 60px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.flex-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: rap;
+  justify-content: space-around;
+  gap: 120px;
+}
+
+.list-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  max-width: 650px;
+  padding: 40px 60px;
+}
+
+.item-list {
+  background: var(--cor-s6);
+  border-radius: 16px;
+}
+
+.item-list:hover {
+  transition: 0.4s;
+  background: var(--cor-s7);
+}
+
+.item-list .list-img {
+  grid-column: 1 / 3;
+  object-fit: cover;
+  object-position: top;
+}
+
+.item-list .list-img img {
+  border-radius: 16px;
+}
+
+.item-list h6 {
+  font-size: 24px;
+}
+
+.item-list .btn {
+  grid-column: 2 / 3;
+}
+
+.item-list p {
+  font-family: "Fira Sans";
+  grid-column: 1 / 3;
+  color: #dedede;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.item-list .preco {
+  font-family: "Poppins";
+  font-weight: 400;
+  grid-column: 1 / 2;
+  font-size: 18px;
+}
+/* #endregion Bicicletas*/
+
+/* #region Responsivo */
+@media (max-width: 1700px) {
+  .flex-container {
+    gap: 80px;
+  }
+
+  .list-container {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .flex-container {
+    gap: 60px;
+  }
+
+  .list-container {
+    gap: 10px;
+  }
+
+  .item-list p {
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  .item-list .preco {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    gap: 24px;
+  }
+
+  .bicicletas h2 {
+    padding-bottom: 30px;
+    padding-left: 80px;
+  }
+
+  .bicicletas h6 {
+    font-size: 18px;
+  }
+
+  .item-list p {
+    font-size: 12px;
+  }
+
+  .list-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-wrap: wrap;
+    gap: 60px
+  }
+
+  .list-container {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr .5fr .5fr;
+    grid-template-rows: .3fr .3fr .5fr;
+  }
+
+  .item-list .list-img {
+    grid-column: 1;
+    grid-row: 1 / -1;
+  }
+  
+  .item-list .list-img img {
+    border-radius: 16px;
+  }
+  
+  .item-list h6 {
+    place-self: center;
+    grid-column: 2 / -1;
+    grid-row: 1;
+  }
+  
+  .item-list .btn {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  
+  .item-list p {
+    grid-column: 2 / -1;
+    grid-row: 2;
+  }
+  
+  .item-list .preco {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+}
+/* #endregion */
