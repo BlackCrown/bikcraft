@@ -1,7 +1,10 @@
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
 @import "./utilitarios/components.css";
+
 @import "./header/header.css";
 @import "./home/introducao.css";
 @import "./home/bicicletas.css";
+@import "./home/escolha.css";
+
 @import "./global/global.css";

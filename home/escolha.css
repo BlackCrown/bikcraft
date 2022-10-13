@@ -1,0 +1,25 @@
+.escolha-a-sua-bg {
+  background: var(--cor-s6);
+  margin: 120px 360px;
+  padding: 80px 60px;
+  border-radius: 40px 0px 700px 40px;
+}
+
+.escolha-a-sua-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+.escolha-texto {
+  grid-column: 1/ 3;
+  grid-row: 1 / 3;
+}
+
+.img-1 {
+  grid-row: 1 / 3;
+}
+
+.img-6 {
+  grid-column: 3 / 5;
+}
