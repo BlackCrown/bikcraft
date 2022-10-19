@@ -11,6 +11,7 @@
   --cor-bg2: #f5f5f5;
   --cor-bg3: #2b2b2b;
   --cor-bg12: #000000;
+  --cor-bg-pagina: #ffffff;
 
   /* cores secundarias para contraste */
   --cor-s1: #ffffff;
@@ -45,4 +46,7 @@
 
 .cor-p5 {
   color: var(--cor-p5);
+}
+
+.cor-bg-principal {
 }

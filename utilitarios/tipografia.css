@@ -10,13 +10,20 @@
 
 .fonte-media {
   font-family: "Poppins";
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.fonte-media-G {
+  font-family: "Poppins";
   font-size: 48px;
+  line-height: 1.1;
   font-weight: 700;
 }
 
 .fonte-pequena {
   font-family: "Fira Sans";
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.2;
   font-weight: 300;
 }
