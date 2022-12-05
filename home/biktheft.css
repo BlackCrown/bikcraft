@@ -1,0 +1,24 @@
+.biktheft-bg{
+  background: var(--cor-s3);
+}
+
+.biktheft-container{
+  background-image: url("../img/fotos/seguros.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+
+  max-width: 1000px;
+  height: 630px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+.biktheft-container p{
+  color: var(--cor-s4);
+  max-width: 40ch;
+}
+
+.biktheft-titulo{
+  color: var(--cor-s8);
+}
