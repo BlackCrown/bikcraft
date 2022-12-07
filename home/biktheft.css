@@ -1,12 +1,25 @@
-.biktheft-bg{
+.biktheft-bg {
   background: var(--cor-s3);
+  padding: 36px 0;
 }
 
-.biktheft-container{
+.biktheft-border {
+  background-image: url("../img/fotos/seguros.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 500px 20px;
+
+  max-width: 1000px;
+  height: 630px;
+  margin: 0 auto;
+}
+
+.biktheft-container {
   background-image: url("../img/fotos/seguros.jpg");
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
+  opacity: 0.8;
 
   max-width: 1000px;
   height: 630px;
@@ -14,11 +27,17 @@
   padding: 45px;
 }
 
-.biktheft-container p{
-  color: var(--cor-s4);
+.biktheft-container p {
+  color: var(--cor-s3);
   max-width: 40ch;
 }
 
-.biktheft-titulo{
-  color: var(--cor-s8);
+.biktheft-titulo {
+  color: var(--cor-s6);
+}
+
+.biktheft-container .fonte-media::before {
+  content: url("../img/icones/seguro.svg");
+  width: 32px;
+  height: 32px;
 }
