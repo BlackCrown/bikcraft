@@ -48,5 +48,13 @@
   color: var(--cor-p5);
 }
 
+.cor-txt1{
+  color: var(--cor-s1)
+}
+
+.cor-txt2{
+  color: var(--cor-s11)
+}
+
 /* .cor-bg-principal {
 } */

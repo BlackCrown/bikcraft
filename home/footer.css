@@ -1,0 +1,49 @@
+.footer-bg{
+  background-color: var(--cor-bg12);
+  height: 350px;
+  border-radius: 20px 20px 0 0;
+}
+
+.footer-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: top;
+  padding: 45px 260px;
+}
+
+.menu-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-footer nav li:nth-child(-n+3){
+  margin-bottom: 20px;
+}
+
+.contatos-redes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contatos{
+  margin-top: 20px;
+}
+
+.contatos-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contatos img{
+  max-width: 32px;
+}
+
+.redes{
+  display: flex;
+  gap: 40px;
+}
