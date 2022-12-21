@@ -1,6 +1,6 @@
 .biktheft-bg {
   background: var(--cor-s3);
-  padding: 36px 0;
+  padding-top: 36px;
   box-shadow: inset 0 -100px var(--cor-bg-pagina);
 }
 
