@@ -8,7 +8,6 @@
 .bicicletas {
   margin: 0 auto;
   background: var(--cor-s3);
-  padding: 0 60px;
   padding-bottom: 80px;
   width: 100%;
 }

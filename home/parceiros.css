@@ -32,23 +32,31 @@
 
 /* #region Responsivo */
 @media (max-width: 800px) {
+
   .parceiros-logos-container {
-    width: 700px;
-    gap: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    gap: 10px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
   .parceiros-container {
     gap: 20px 0;
   }
 
   .parceiros-logos-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    width: 400px;
   }
 
   .parceiros-logos-container img {
     width: 60%;
+  }
+
+  .parceiros-texto {
+    max-width: 50ch;
   }
 }
 /* #endregion Responsivo */

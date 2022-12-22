@@ -103,6 +103,10 @@
     border-radius:  100px 15px 100px 15px;
     box-shadow: none;
   }
+
+  .escolha-a-sua-container{
+    text-align: center;
+  }
 }
 
 /* #endregion Responsivo */

@@ -81,6 +81,7 @@
 @media (max-width: 800px) {
   .introducao-container {
     padding: 24px 40px;
+    text-align: center;
   }
 
   .introducao-bg {

@@ -42,3 +42,41 @@
   width: 32px;
   height: 32px;
 }
+
+/* #region Responsivo */
+@media (max-width: 600px) { 
+  .biktheft-bg {
+    padding-top: 0;
+    box-shadow: none;
+  }
+
+  .biktheft-container {
+    opacity: 1;
+    padding: 30px 20px;
+  }
+
+  .opacity p,.opacity {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  
+  .biktheft-container, .biktheft-bg{
+    height: max-content;
+    }
+    .biktheft-container, .biktheft-border{
+      background-image: none;
+      height: max-content;
+    }
+
+    .biktheft-titulo {
+      color: var(--cor-s12);
+    }
+
+    .biktheft-container p {
+      color: var(--cor-txt2);
+    }
+}
+
+
+/* #endregion Responsivo */

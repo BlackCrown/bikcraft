@@ -79,7 +79,7 @@
 
 /* #region Responsivo */
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .footer-bg {
     background-color: var(--cor-bg12);
     height: 100%;
@@ -94,6 +94,14 @@
   .menu-footer,
   .contatos-redes {
     justify-self: center;
+  }
+
+  .contatos-flex, .redes{
+    justify-content: center;
+  }
+
+  .menu-footer nav li{
+    text-align: center;
   }
 
   .footer-bg::after,
