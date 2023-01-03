@@ -11,10 +11,7 @@
 body {
   font-size: 100%;
   list-style-type: none;
-  background: var(--cor-bg-pagina);
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 140px;
+  background: var(red);
 }
 
 a {

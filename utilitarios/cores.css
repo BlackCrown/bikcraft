@@ -11,6 +11,7 @@
   --cor-bg2: #f5f5f5;
   --cor-bg3: #2b2b2b;
   --cor-bg12: #000000;
+  --cor-bg11: #171717;
   --cor-bg-pagina: #ffffff;
 
   /* cores secundarias para contraste */
@@ -56,6 +57,18 @@
 
 .cor-txt2 {
   color: var(--cor-s11);
+}
+
+.cor-titulo1 {
+  color: var(--cor-s12);
+}
+
+.cor-titulo2 {
+  color: var(--cor-s3);
+}
+
+.cor-subtitulo1 {
+  color: var(--cor-s8);
 }
 
 /* .cor-bg-principal {

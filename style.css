@@ -1,7 +1,7 @@
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
 @import "./utilitarios/components.css";
-
+/* Pagina Home */
 @import "./header/header.css";
 @import "./home/introducao.css";
 @import "./home/bicicletas.css";
@@ -10,5 +10,6 @@
 @import "./home/depoimentos.css";
 @import "./home/parceiros.css";
 @import "./home/footer.css";
-
+/* Pagina Termos */
+@import "./termos/termos.css";
 @import "./global/global.css";
