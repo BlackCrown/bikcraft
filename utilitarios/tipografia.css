@@ -4,6 +4,7 @@
 .fonte-grande {
   font-family: "Poppins";
   font-size: 75px;
+  line-height: 1.1;
   font-weight: 700;
   line-height: 0.87;
 }
@@ -11,12 +12,14 @@
 .fonte-media-P {
   font-family: "Poppins";
   font-size: 18px;
+  line-height: 1.1;
   font-weight: 600;
 }
 
 .fonte-media {
   font-family: "Poppins";
   font-size: 34px;
+  line-height: 1.1;
   font-weight: 700;
 }
 
@@ -54,7 +57,6 @@
 @media (max-width: 1300px) {
   .fonte-grande {
     font-size: 40px;
-    margin-bottom: 16px;
   }
 
   .fonte-media {
@@ -67,7 +69,6 @@
 
   .fonte-pequena {
     font-size: 20px;
-    margin-bottom: 14px;
   }
 }
 

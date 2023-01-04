@@ -18,3 +18,24 @@
 .termos-container p + h2 {
   margin-top: 14px;
 }
+
+.termos-container p + p {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .titulo-bg {
+    padding: 30px 0px;
+    background-color: var(--cor-bg11);
+  }
+
+  .titulo {
+    padding: 0 10px;
+  }
+
+  .titulo h1 {
+    text-transform: lowercase;
+    line-height: 1.1;
+    margin-bottom: 0;
+  }
+}
