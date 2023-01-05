@@ -1,5 +1,60 @@
+.biktheft-bg {
+  margin-bottom: 100px;
+}
+
 .biktheft-titulo .fonte-media::before {
   content: url("../img/icones/seguro.svg");
   width: 32px;
   height: 32px;
+}
+
+.Biktheft-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-height: 630px;
+  height: 100%;
+}
+
+.plano-prata,
+.plano-ouro {
+  background-color: rgba(84, 84, 84, 0.4);
+  border-radius: 40px 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 32px;
+}
+
+.plano-prata {
+  max-width: fit-content;
+  max-height: fit-content;
+  gap: 20px;
+  padding: 20px;
+}
+
+.plano-ouro {
+  background-color: rgba(87, 59, 0, 0.6);
+}
+
+.lista-beneficios-prata,
+.lista-beneficios-ouro {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lista-beneficios-prata li::before {
+  content: url("/img/icones/Seguros_Visto_Prata.svg");
+  width: 30px;
+  height: 31px;
+  padding-right: 8px;
+}
+
+.lista-beneficios-ouro li::before {
+  content: url("/img/icones/Seguros_Visto_Ouro.svg");
+  width: 30px;
+  height: 31px;
+  padding-right: 8px;
 }

@@ -13,24 +13,39 @@
   max-width: 1000px;
   height: 630px;
   margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  /* align-items: center; */
 }
 
-.biktheft-container {
+.opacity {
   background-image: url("../img/fotos/seguros.jpg");
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
-  opacity: 0.8;
-
-  max-width: 1000px;
-  height: 630px;
-  margin: 0 auto;
-  padding: 45px;
+  opacity: 0.6;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
+.biktheft-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: rigth;
+  gap: 20px;
+  max-width: 100%;
+  height: 100%;
+  max-height: 630px;
+  padding: 45px 120px;
+}
 .biktheft-container p {
   color: var(--cor-s3);
-  max-width: 40ch;
+  max-width: 60ch;
 }
 
 .biktheft-titulo {
@@ -44,39 +59,41 @@
 }
 
 /* #region Responsivo */
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
   .biktheft-bg {
     padding-top: 0;
     box-shadow: none;
   }
 
   .biktheft-container {
-    opacity: 1;
     padding: 30px 20px;
   }
 
-  .opacity p,.opacity {
+  .opacity p,
+  .opacity {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 18px;
   }
-  
-  .biktheft-container, .biktheft-bg{
+
+  .biktheft-container,
+  .biktheft-bg {
     height: max-content;
-    }
-    .biktheft-container, .biktheft-border{
-      background-image: none;
-      height: max-content;
-    }
+  }
+  .opacity,
+  .biktheft-border {
+    background-image: none;
+    height: max-content;
+    padding: 0px;
+  }
 
-    .biktheft-titulo {
-      color: var(--cor-s12);
-    }
+  .biktheft-titulo {
+    color: var(--cor-s12);
+  }
 
-    .biktheft-container p {
-      color: var(--cor-txt2);
-    }
+  .biktheft-container p {
+    color: var(--cor-txt2);
+  }
 }
-
 
 /* #endregion Responsivo */
