@@ -31,6 +31,9 @@
   --cor-txt2: #171717;
 }
 
+/* #region Cores Gerais */
+/* #region Cores de Destaque */
+
 .cor-p1 {
   color: var(--cor-p1);
 }
@@ -50,7 +53,9 @@
 .cor-p5 {
   color: var(--cor-p5);
 }
+/* #endregion Cores de Destaque */
 
+/* #region Cores Tipogafria/ Titulos */
 .cor-txt1 {
   color: var(--cor-s1);
 }
@@ -70,6 +75,15 @@
 .cor-subtitulo1 {
   color: var(--cor-s8);
 }
+/* #endregion Cores Tipogafria/ Titulos */
+/* #endregion Cores Gerais */
 
-/* .cor-bg-principal {
-} */
+/* #region Cores Especificas */
+.cor-titulo-seguros1 {
+  color: var(--cor-s6);
+}
+
+.cor-titulo-seguros2 {
+  color: var(--cor-p1);
+}
+/* #endregion Cores Especificas */

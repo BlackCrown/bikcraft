@@ -12,4 +12,7 @@
 @import "./home/footer.css";
 /* Pagina Termos */
 @import "./termos/termos.css";
+/* Pagina Seguros */
+@import "./seguros/seguros.css";
+
 @import "./global/global.css";
