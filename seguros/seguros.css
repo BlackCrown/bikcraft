@@ -58,3 +58,59 @@
   height: 31px;
   padding-right: 8px;
 }
+
+/* #region Responsivo */
+@media (max-width: 800px) {
+  .plano-prata,
+  .plano-ouro {
+    gap: 15px;
+    padding: 16px;
+  }
+
+  .lista-beneficios-prata,
+.lista-beneficios-ouro {
+  gap: 10px;
+}
+}
+
+@media (max-width: 600px) {
+  .Biktheft-container {
+    /* flex-direction: column;*/
+    max-height: fit-content;
+    padding: 40px 0px;
+    display: grid;
+  
+  }
+
+  .plano-prata {
+    background-color: rgba(84, 84, 84, 0.5);
+    max-width: inherit;
+  }
+}
+
+@media (max-width: 360px){
+  .biktheft-titulo {
+    text-align: center;
+  }
+
+  .lista-beneficios-prata,
+  .lista-beneficios-ouro, 
+  .Biktheft-container h1{
+    gap: 18px;
+    text-align: center;
+  }
+
+  .lista-beneficios-prata li::before,
+  .lista-beneficios-ouro li::before {
+    display: none;
+  }
+
+  .lista-beneficios-prata li{
+    border-bottom: solid var(--cor-s4) 1px;
+  }
+
+  .lista-beneficios-ouro li{
+    border-bottom: solid var(--cor-p2) 1px;
+  }
+}
+/* #endregion Responsivo */
