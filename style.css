@@ -14,5 +14,7 @@
 @import "./termos/termos.css";
 /* Pagina Seguros */
 @import "./seguros/seguros.css";
+/* Pagina Contato */
+@import "./contato/contato.css";
 
 @import "./global/global.css";

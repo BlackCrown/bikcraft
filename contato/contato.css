@@ -1,0 +1,19 @@
+.contato-titulo .fonte-media-P::before {
+  content: url("../img/icones/telefone.svg");
+  width: 32px;
+  height: 32px;
+}
+
+/* .contato-titulo {
+  padding-bottom: 200px;
+} */
+
+.formulario-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.formulario-dados label {
+  display: block;
+  margin-bottom: 4px;
+}

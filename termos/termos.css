@@ -1,12 +1,3 @@
-.titulo-bg {
-  padding: 60px 0px;
-  background-color: var(--cor-bg11);
-}
-
-.titulo {
-  padding: 0 40px;
-}
-
 .termos-container {
   padding: 40px;
   max-width: 90ch;

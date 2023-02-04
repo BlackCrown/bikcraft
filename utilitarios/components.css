@@ -1,3 +1,17 @@
+.headerPage-titulo-bg {
+  padding: 60px 0px;
+  background-color: var(--cor-bg11);
+  margin-bottom: 100px;
+}
+
+.headerPage-titulo-container {
+  padding: 0 40px;
+}
+
+.headerPage-titulo-g {
+  color: var(--cor-s6);
+}
+
 .btn {
   font-family: "Poppins";
   text-transform: uppercase;

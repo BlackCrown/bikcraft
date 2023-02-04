@@ -55,7 +55,7 @@
 }
 /* #endregion Cores de Destaque */
 
-/* #region Cores Tipogafria/ Titulos */
+/* #region Cores Tipogafria Titulos */
 .cor-txt1 {
   color: var(--cor-s1);
 }
@@ -75,7 +75,7 @@
 .cor-subtitulo1 {
   color: var(--cor-s8);
 }
-/* #endregion Cores Tipogafria/ Titulos */
+/* #endregion Cores Tipogafria Titulos */
 /* #endregion Cores Gerais */
 
 /* #region Cores Especificas */
