@@ -11,9 +11,25 @@
 .formulario-container {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
+  place-content: center;
+  background-color: red;
+}
+
+.formulario-input{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .formulario-dados label {
   display: block;
   margin-bottom: 4px;
+
+}
+
+.formulario-dados input {
+  width: max-content;
+}
+
+.nome-input, .enredeco-input, .mensagem-input {
+  grid-column: 1 / -1;
 }
