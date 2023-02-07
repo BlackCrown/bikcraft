@@ -18,6 +18,12 @@
 .formulario-input{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 18px 32px;
+}
+
+.formulario-input div input, .mensagem-input textarea{
+  width: 100%;
+  height: 28px;
 }
 
 .formulario-dados label {
@@ -25,6 +31,11 @@
   margin-bottom: 4px;
 
 }
+
+/* #nome {
+  width: 100%;
+  border-color: yellow;
+} */
 
 .formulario-dados input {
   width: max-content;
