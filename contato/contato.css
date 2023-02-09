@@ -7,40 +7,67 @@
 /* .contato-titulo {
   padding-bottom: 200px;
 } */
-
+.formulario-bg {
+  background-color: var(--cor-bg2);
+}
 .formulario-container {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  place-content: center;
-  background-color: red;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 0 30px;
 }
 
-.formulario-input{
+.formulario-informacoes-bg {
+  background-color: var(--cor-bg11);
+  padding: 20px 30px 60px 60px;
+}
+
+.formulario-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px 32px;
+  padding: 60px 0;
 }
 
-.formulario-input div input, .mensagem-input textarea{
+.formulario-input div input,
+.mensagem-input textarea {
   width: 100%;
-  height: 28px;
+  height: 32px;
+}
+
+.mensagem-input textarea,
+input[type="text"],
+[type="number"],
+[type="email"] {
+  padding: 8px 0 0 4px;
+  background-color: var(--cor-bg2);
+  border: 1px solid var(--cor-s4);
+  border-radius: 4px;
+}
+
+.mensagem-input textarea {
+  height: 100px;
+  padding: 16px 4px;
 }
 
 .formulario-dados label {
   display: block;
-  margin-bottom: 4px;
-
+  width: fit-content;
+  padding: 0 6px;
+  margin-left: 8px;
+  margin-bottom: -10px;
+  position: relative;
+  background-color: var(--cor-bg2);
 }
-
-/* #nome {
-  width: 100%;
-  border-color: yellow;
-} */
 
 .formulario-dados input {
   width: max-content;
 }
 
-.nome-input, .enredeco-input, .mensagem-input {
+.nome-input,
+.enredeco-input,
+.mensagem-input {
   grid-column: 1 / -1;
 }
