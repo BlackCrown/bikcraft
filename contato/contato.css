@@ -4,31 +4,73 @@
   height: 32px;
 }
 
-/* .contato-titulo {
-  padding-bottom: 200px;
-} */
 .formulario-bg {
   background-color: var(--cor-bg2);
+  border-radius: 16px;
 }
+
 .formulario-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   max-width: 1200px;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom: 120px;
   gap: 0 30px;
 }
 
 .formulario-informacoes-bg {
   background-color: var(--cor-bg11);
-  padding: 20px 30px 60px 60px;
+  padding: 30px 30px 30px 60px;
+  border-radius: 16px 0 0 16px;
+}
+
+.formulario-informacoes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+
+.formulario-informacoes div:first-child p {
+  margin-bottom: 24px;
+}
+
+.formulario-informacoes div:last-child h6 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.formulario-informacoes div:last-child p {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.formulario-informacoes div:last-child p::before {
+  content: url("../img/icones/local.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.formulario-informacoes div:last-child p:nth-child(odd)::before {
+  content: url("../img/icones/email.svg");
+}
+
+.formulario-informacoes div:last-child p:last-child::before {
+  content: url("../img/icones/telefone.svg");
+}
+
+.formulario-informacoes div:last-child p:nth-child(-n + 3) {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-bottom: 2px solid var(--cor-s10);
 }
 
 .formulario-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px 32px;
-  padding: 60px 0;
+  padding: 60px 60px 0 0;
 }
 
 .formulario-input div input,

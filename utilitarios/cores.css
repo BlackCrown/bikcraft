@@ -64,6 +64,14 @@
   color: var(--cor-s11);
 }
 
+.cor-subtexto1 {
+  color: var(--cor-s3);
+}
+
+.cor-subtexto2 {
+  color: var(--cor-s5);
+}
+
 .cor-titulo1 {
   color: var(--cor-s12);
 }

@@ -3,7 +3,7 @@
 
 .fonte-grande {
   font-family: "Poppins";
-  font-size: 75px;
+  font-size: 7.5rem;
   line-height: 1.1;
   font-weight: 700;
   line-height: 0.87;
@@ -11,35 +11,42 @@
 
 .fonte-media-P {
   font-family: "Poppins";
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.1;
   font-weight: 600;
 }
 
 .fonte-media {
   font-family: "Poppins";
-  font-size: 34px;
+  font-size: 3.4rem;
   line-height: 1.1;
   font-weight: 700;
 }
 
 .fonte-media-G {
   font-family: "Poppins";
-  font-size: 48px;
+  font-size: 4.8rem;
   line-height: 1.1;
   font-weight: 700;
 }
 
+.fonte-rodape {
+  font-family: "Fira Sans";
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
 .fonte-PP {
   font-family: "Fira Sans";
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.2;
   font-weight: 400;
 }
 
 .fonte-pequena {
   font-family: "Fira Sans";
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.2;
   font-weight: 300;
 }
@@ -47,7 +54,7 @@
 /* #region Responsivo */
 @media (max-width: 1700px) {
   .fonte-grande {
-    font-size: 60px;
+    font-size: 6rem;
   }
   .fonte-media {
     font-size: 40px;
@@ -56,51 +63,51 @@
 
 @media (max-width: 1300px) {
   .fonte-grande {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .fonte-media {
-    font-size: 38px;
+    font-size: 3.8rem;
   }
 
   .fonte-media-G {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .fonte-pequena {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 1000px) {
   .fonte-media {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
 
   .fonte-media-G {
-    font-size: 38px;
+    font-size: 3.8rem;
   }
 
   .fonte-pequena {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 800px) {
   .fonte-grande {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
 
   .fonte-media {
-    font-size: 28px;
+    font-size: 2.8rem;
   }
 
   .fonte-media-G {
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   .fonte-pequena {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 

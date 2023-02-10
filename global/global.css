@@ -1,4 +1,7 @@
 /* #region CSS reset */
+:root {
+  font-size: 62.5%; /* 1 REM = 10px */
+}
 *,
 *::after,
 *::before {
@@ -9,7 +12,7 @@
   list-style: none;
 }
 body {
-  font-size: 100%;
+  /* font-size: 100%; */
   list-style-type: none;
 }
 
