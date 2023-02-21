@@ -4,6 +4,12 @@
   margin-bottom: 100px;
 }
 
+.headerPage-titulo-bg2 {
+  padding: 60px 0px 280px 60px;
+  background-color: var(--cor-bg11);
+  margin-bottom: -260px;
+}
+
 .headerPage-titulo-container {
   padding: 0 40px;
 }

@@ -4,9 +4,10 @@
   height: 32px;
 }
 
+/* #region Formulario */
 .formulario-bg {
   background-color: var(--cor-bg2);
-  border-radius: 16px;
+  border-radius: 20px;
 }
 
 .formulario-container {
@@ -20,7 +21,7 @@
 }
 
 .formulario-informacoes-bg {
-  background-color: var(--cor-bg11);
+  background-color: var(--cor-bg3);
   padding: 30px 30px 30px 60px;
   border-radius: 16px 0 0 16px;
 }
@@ -36,13 +37,16 @@
 }
 
 .formulario-informacoes div:last-child h6 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
   font-size: 1.8rem;
 }
 
 .formulario-informacoes div:last-child p {
-  text-align: center;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 30px auto;
+  align-content: center;
   padding-top: 12px;
 }
 
@@ -50,6 +54,7 @@
   content: url("../img/icones/local.svg");
   width: 30px;
   height: 30px;
+  justify-self: end;
 }
 
 .formulario-informacoes div:last-child p:nth-child(odd)::before {
@@ -63,7 +68,7 @@
 .formulario-informacoes div:last-child p:nth-child(-n + 3) {
   padding-bottom: 12px;
   padding-top: 12px;
-  border-bottom: 2px solid var(--cor-s10);
+  border-bottom: 2px solid var(--cor-s9);
 }
 
 .formulario-input {
@@ -113,3 +118,113 @@ input[type="text"],
 .mensagem-input {
   grid-column: 1 / -1;
 }
+/* #endregion Formulario */
+
+/* #region Locais */
+.loja-locais {
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "local1 local2";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 64px 60px;
+  padding: 120px 60px;
+}
+
+.loja-locais h2 {
+  grid-area: head;
+  margin-left: 60px;
+}
+
+.loja-principal {
+  max-width: fit-content;
+  place-self: center;
+}
+
+.loja-principal .img {
+  width: 100%;
+  max-width: 548px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.loja-principal h5,
+.loja-principal .loja-informacoes {
+  background-color: var(--cor-bg3);
+  padding: 0 30px 20px 30px;
+}
+
+.loja-principal h5 {
+  padding-top: 20px;
+}
+
+.loja-principal .loja-informacoes {
+  border-radius: 0 0 12px 12px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 18px;
+}
+
+.enderecos > p:first-child,
+.loja-contatos > p:first-child {
+  margin-bottom: 18px;
+}
+/* #endregion Locais */
+
+/* #region Responsivo*/
+@media (max-width: 840px) {
+  .loja-locais .loja-informacoes {
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+  }
+  .loja-principal h5 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 790px) {
+  .formulario-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+  }
+  .formulario-informacoes-bg,
+  .formulario-bg {
+    border-radius: 0;
+  }
+
+  .formulario-input,
+  .formulario-informacoes {
+    padding: 20px 40px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 790px) {
+  .loja-locais {
+    display: grid;
+    grid-template-areas:
+      "head"
+      "local1"
+      "local2";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    gap: 40px;
+    padding: 10px 20px;
+  }
+
+  /* .loja-locais .loja-informacoes {
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    text-align: center;
+ */
+}
+
+@media (max-width: 500px) {
+  .formulario-input {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* #endregion Responsivo*/
