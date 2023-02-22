@@ -201,7 +201,7 @@ input[type="text"],
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 690px) {
   .loja-locais {
     display: grid;
     grid-template-areas:
@@ -213,12 +213,6 @@ input[type="text"],
     gap: 40px;
     padding: 10px 20px;
   }
-
-  /* .loja-locais .loja-informacoes {
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    text-align: center;
- */
 }
 
 @media (max-width: 500px) {
