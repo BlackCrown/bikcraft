@@ -17,6 +17,6 @@
 /* Pagina Contato */
 @import "./contato/contato.css";
 /* Pagina Bicicletas*/
-/* @import "./bicicletas/bicicletasPagina.css"; */
+@import "./bicicletas/bicicletasPagina.css";
 
 @import "./global/global.css";

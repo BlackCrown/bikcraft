@@ -36,6 +36,7 @@
 .item-list:hover {
   transition: 0.4s;
   background: var(--cor-s7);
+  /* cursor: pointer; */
 }
 
 .item-list .list-img {
@@ -102,7 +103,6 @@
   .flex-container {
     gap: 24px;
   }
-
 
   .bicicletas h2 {
     padding-bottom: 30px;

@@ -35,7 +35,6 @@
   display: inline-block;
   color: var(--cor-s11);
   max-width: max-content;
-  align-self: center;
 }
 
 .btn:hover {
@@ -115,5 +114,18 @@
 
   .btn-prata {
     font-size: 12px;
+  }
+
+  .headerPage-titulo-bg {
+    padding: 60px 0px;
+    background-color: var(--cor-bg11);
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .headerPage-titulo-bg {
+    padding: 20px 0px;
+    margin-bottom: 30px;
   }
 }

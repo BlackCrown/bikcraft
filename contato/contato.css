@@ -16,7 +16,7 @@
   max-width: 1200px;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
   gap: 0 30px;
 }
 
@@ -78,6 +78,20 @@
   padding: 60px 60px 0 0;
 }
 
+.formulario-input h6::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  margin-right: 8px;
+  background-color: var(--cor-p1);
+}
+
+.formulario-input h6 {
+  display: flex;
+  place-items: center;
+}
+
 .formulario-input div input,
 .mensagem-input textarea {
   width: 100%;
@@ -132,9 +146,34 @@ input[type="text"],
   padding: 120px 60px;
 }
 
+.loja-locais h2::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+  background-color: var(--cor-p1);
+}
+
 .loja-locais h2 {
   grid-area: head;
   margin-left: 60px;
+  display: flex;
+  place-items: center;
+}
+
+.loja-principal h5::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  margin-right: 8px;
+  background-color: var(--cor-p1);
+}
+
+.loja-principal h5 {
+  display: flex;
+  place-items: center;
 }
 
 .loja-principal {
