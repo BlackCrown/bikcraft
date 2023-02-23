@@ -18,5 +18,7 @@
 @import "./contato/contato.css";
 /* Pagina Bicicletas*/
 @import "./bicicletas/bicicletasPagina.css";
+/* Pagina Produtos*/
+@import "./bicicletas/magic.css";
 
 @import "./global/global.css";

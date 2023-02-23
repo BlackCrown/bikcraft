@@ -1,0 +1,21 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-bg2);
+}
+
+.produto-imagens {
+  display: flex;
+  gap: 12px 8px;
+  flex-wrap: wrap;
+}
+
+.produto-imagens img {
+  flex: 1;
+  min-width: 100px;
+  max-width: 280px;
+}
+
+.produto-imagens img:first-child {
+  min-width: 100%;
+}
