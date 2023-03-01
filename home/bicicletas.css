@@ -51,15 +51,18 @@
 
 .item-list h6 {
   font-size: 32px;
+  width: fit-content;
 }
 
 .item-list .btn {
   grid-column: 2 / 3;
+  width: max-content;
 }
 
 .item-list p {
   grid-column: 1 / 3;
   color: #dedede;
+  width: fit-content;
 }
 
 .item-list .preco {

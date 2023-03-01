@@ -48,6 +48,10 @@
   );
 }
 
+#contato .btn {
+  border: none;
+}
+
 .btn-prata {
   font-family: "Poppins";
   text-transform: uppercase;

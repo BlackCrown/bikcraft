@@ -11,7 +11,7 @@
   <meta name="description" content="Entre em contato conosco em caso de duvidas ou problemas.">
 </head>
 
-<body>
+<body id="contato">
   <header class="header-bg">
     <div class="header">
       <a href="./">
@@ -42,7 +42,7 @@
     </div>
 
     <div class="formulario-container formulario-bg">
-      <div class="formulario-informacoes formulario-informacoes-bg cor-subtexto1">
+      <section class="formulario-informacoes formulario-informacoes-bg cor-subtexto1" aria-label="Endereço">
         <div class="fonte-PP">
           <p>
             A Bikcraft está sempre pronta para ajudar seus cliente. Nos conte o seu problema e responderemos o mais rápido possível
@@ -62,9 +62,9 @@
             +55 (11) 3666-6663
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="formulario-dados fonte-rodape">
+      <section class="formulario-dados fonte-rodape" aria-label="Formulário">
         <form class="formulario-input" action="/" method="post">
           <h6 class="fonte-pequena">DADOS</h6>
           <div class="nome-input">
@@ -79,7 +79,7 @@
 
           <div class="telefone-input">
             <label for="telefone">TELEFONE</label>
-            <input type="number" id="numero" name="numero" required placeholder="(00) 00000-0000" />
+            <input type="text" id="numero" name="numero" required placeholder="(00) 00000-0000" />
           </div>
 
           <div class="email-input">
@@ -89,13 +89,13 @@
 
           <div class="mensagem-input">
             <label for="mensagem">MENSAGEM</label>
-            <textarea type="text-area" id="mensagem" name="mensagem" placeholder="Digite aqui sua sugestão, reclamação, duvida ou problema. Para orçamentos e duvidas subre peças ou noças bicicletas/ peças, vá até o botão 'MONTE A SUA' na página inicial "></textarea>
+            <textarea type="text-area" id="mensagem" name="mensagem" placeholder="Digite aqui sua sugestão, reclamação, duvida ou problema. Para orçamentos e duvidas sobre peças ou nossas bicicletas/ peças, vá até o botão 'MONTE A SUA' na página inicial "></textarea>
           </div>
 
-          <a class="btn" href="/">ENVIAR</a>
+          <button class="btn" href="/">ENVIAR MENSAGEM</button>
 
         </form>
-      </div>
+      </section>
     </div>
 
     <section class="loja-locais">
@@ -163,7 +163,7 @@
             <img src="./img/bicicletas/magic-home.jpg" alt="">
           </div>
           <p class="preco">R$ 2.900,00</p>
-          <a class="btn" href="./Bicicletas">Comprar</a>
+          <a class="btn seta" href="./bicicletas/magic.html">saiba mais</a>
           <h6>Bike Ground</h6>
           <p class="fonte-pequena">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quos dolorem est quisquam excepturi, inventore nihil.</p>
         </li>
@@ -173,7 +173,7 @@
             <img src="./img/bicicletas/nimbus-home.jpg" alt="">
           </div>
           <p class="preco">R$ 3.650,00</p>
-          <a class="btn" href="./Bicicletas">Comprar</a>
+          <a class="btn seta" href="./bicicletas/stormCicle.html">saiba mais</a>
           <h6>Storm Cicle</h6>
           <p class="fonte-pequena">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quos dolorem est quisquam excepturi, inventore nihil.</p>
         </li>
@@ -183,7 +183,7 @@
             <img src="./img/bicicletas/nebula-home.jpg" alt="">
           </div>
           <p class="preco">R$ 1.999,00</p>
-          <a class="btn" href="./Bicicletas">Comprar</a>
+          <a class="btn seta" href="./bicicletas/cloudness.html">saiba mais</a>
           <h6>Cloudness</h6>
           <p class="fonte-pequena">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quos dolorem est quisquam excepturi, inventore nihil.</p>
         </li>
