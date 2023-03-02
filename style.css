@@ -21,4 +21,7 @@
 /* Pagina Produtos*/
 @import "./bicicletas/magic.css";
 
+/* Pagina Orcamento*/
+@import "./orcamento/orcamento.css";
+
 @import "./global/global.css";

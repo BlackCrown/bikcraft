@@ -1,0 +1,40 @@
+.orcamento-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  gap: 0 30px;
+}
+
+.orcamento-bg {
+  background-color: var(--cor-bg3);
+  padding: 30px 30px 30px 60px;
+  border-radius: 16px 0 0 16px;
+}
+
+.selecao-lista .selecao-lista-item .bicicleta-info {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 12px;
+}
+
+.bicicleta-info .informacoes {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  gap: 4px 8px;
+}
+
+.bicicleta-info .informacoes > img {
+  min-width: 12px;
+  max-width: 16px;
+  width: 100%;
+}
+
+.bicicleta-info > img {
+  min-width: 100px;
+  max-width: 120px;
+  width: 100%;
+}
