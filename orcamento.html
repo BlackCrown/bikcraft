@@ -41,77 +41,64 @@
       </div>
     </div>
 
-    <div class="orcamento-container orcamento-bg">
-      <section class="orcamento-selecao cor-subtexto1" aria-label="Seleçao do tipo de orçamento">
-        <div class="orcamento-tipo">
-          <h6>BIKCRAFT OU SEGURO?</h6>
+    <form action="./">
+      <div class="orcamento-container orcamento-bg fonte-rodape">
+        <section class="orcamento-tipo cor-subtexto1" aria-label="Seleçao do tipo de orçamento">
+          <h6 class="fonte-PP">BIKCRAFT OU SEGURO?</h6>
+
           <input type="radio" id="bikcraft" name="orcamento-selecao">
-          <label for="bickraft">BIKCRAFT</label>
+          <label class="label-btn" for="bikcraft">Bikcraft</label>
 
           <input type="radio" id="seguro" name="orcamento-selecao">
-          <label for="seguro">SEGURO</label>
-        </div>
+          <label class="label-btn" for="seguro">Seguro</label>
 
-        <div class="bicicleta-selecao">
-          <h6>BIKCRAFT OU SEGURO?</h6>
-          <ul class="selecao-lista">
-            <li class="selecao-lista-item">
-              <input type="radio" id="ground" name="bicicleta">
-              <label for="ground">GROUND</label>
-              <div class="bicicleta-info">
-                <div class="informacoes">
-                  <img src="./img/icones/eletrica.svg" alt="eletrica">
-                  <p>Motor elétrico</p>
-                  <img src="./img/icones/velocidade.svg" alt="Velocidade">
-                  <p>40 km/hr</p>
-                  <img src="./img/icones/rastreador.svg" alt="Rastreador">
-                  <p>Rastreador imbutido</p>
-                  <img src="./img/icones/carbono.svg" alt="Quadro de carbono">
-                  <p>Fibra de carbono</p>
+          <div class="orcamento-conteudo bicicleta-selecao fonte-rodape" id="orcamento-bikcraft">
+            <h4 class=" fonte-PP">Selecione a sua Bikcraft</h4>
+            <ul class="selecao-bicicleta-lista">
+              <li class="lista-item bike-ground cor-txt2">
+                <input type="radio" id="bike-ground" name="bicicleta">
+                <label for="bike-ground">BIKE GROUND</label>
+
+                <div class="bicicleta-info" id="ground-info">
+                  <ul class="bicicleta-especificacoes">
+                    <li>
+                      <img src="./img/icones/eletrica.svg" alt="">
+                      <p>Motor Elétrico</p>
+                    </li>
+                    <li>
+                      <img src="./img/icones/velocidade.svg" alt="">
+                      <p>40 Km/hr</p>
+                    </li>
+                    <li>
+                      <img src="./img/icones/rastreador.svg" alt="">
+                      <p>Rastreador</p>
+                    </li>
+                    <li>
+                      <img src="./img/icones/carbono.svg" alt="">
+                      <p>Fibra de Carbono</p>
+                    </li>
+                  </ul>
+                  <img src="./img/bicicletas/magic.jpg" alt="">
                 </div>
+              </li>
 
-                <img src="./img/bicicletas/magic.jpg" alt="Bike Ground">
-              </div>
-            </li>
-            <li class="selecao-lista-item">
-              <input type="radio" id="storm" name="bicicleta">
-              <label for="storm">STORM</label>
-              <div class="bicicleta-info">
-                <div class="informacoes">
-                  <img src="./img/icones/eletrica.svg" alt="eletrica">
-                  <p>Motor elétrico</p>
-                  <img src="./img/icones/velocidade.svg" alt="Velocidade">
-                  <p>60 km/hr</p>
-                  <img src="./img/icones/rastreador.svg" alt="Rastreador">
-                  <p>Rastreador imbutido</p>
-                  <img src="./img/icones/carbono.svg" alt="Quadro de carbono">
-                  <p>Fibra de carbono</p>
+              <li class="lista-item bike-cloudness  cor-txt2">
+                <input type="radio" id="bike-cloudness" name="bicicleta">
+                <label for="bike-cloudness">CLOUDNESS</label>
+
+                <div class="container bicicleta-info" id="cloudness-info">
                 </div>
+              </li>
+            </ul>
+          </div>
 
-                <img src="./img/bicicletas/nimbus.jpg" alt="Storm Cicle">
-              </div>
-            </li>
-            <li class="selecao-lista-item">
-              <input type="radio" id="cloudness" name="bicicleta">
-              <label for="cloudness">CLOUDNESS</label>
-              <div class="bicicleta-info">
-                <div class="informacoes">
-                  <img src="./img/icones/eletrica.svg" alt="eletrica">
-                  <p>Motor elétrico</p>
-                  <img src="./img/icones/velocidade.svg" alt="Velocidade">
-                  <p>25 km/hr</p>
-                  <img src="./img/icones/rastreador.svg" alt="Rastreador">
-                  <p>Rastreador imbutido</p>
-                </div>
-                <img src="./img/bicicletas/nebula.jpg" alt="Cloudness">
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
 
-      <section class="orcamento fonte-rodape" aria-label="Orçamento formulário">
-        <form class="orcamento-input" action="/" method="post">
+          <div class="orcamento-conteudo seguro-selecao" id="orcamento-seguro">
+            <h4 class="fonte-PP">Selecione seu seguro</h4>
+          </div>
+        </section>
+
+        <section class="orcamento-formulario fonte-rodape" aria-label="Orçamento formulário">
           <div>
             <h6 class="fonte-pequena">DADOS</h6>
             <div class="nome-input">
@@ -171,10 +158,8 @@
           </div>
 
           <button class="btn" href="/">solicitar orçamento</button>
-
-        </form>
-      </section>
-    </div>
+        </section>
+    </form>
   </main>
 
   <footer class="footer-bg">

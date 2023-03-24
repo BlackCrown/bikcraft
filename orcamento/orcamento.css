@@ -2,39 +2,91 @@
   display: grid;
   grid-template-columns: auto 1fr;
   max-width: 1200px;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  gap: 0 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  gap: 30px;
 }
 
 .orcamento-bg {
   background-color: var(--cor-bg3);
-  padding: 30px 30px 30px 60px;
-  border-radius: 16px 0 0 16px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 5px var(--cor-s7);
+  margin: 60px auto;
 }
 
-.selecao-lista .selecao-lista-item .bicicleta-info {
+.orcamento-tipo {
+  padding: 30px 0 30px 30px;
+}
+
+.orcamento-formulario {
+  background-color: var(--cor-bg1);
+  padding: 30px;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.label-btn {
+  padding: 12px;
+  margin-right: 12px;
+  margin-top: 8px;
+  border-radius: 4px;
+  background-color: azure;
+  display: inline-block;
+  color: var(--cor-txt2);
+  font-weight: 400;
+}
+
+.orcamento-conteudo {
+  display: none;
+}
+
+#bikcraft:checked ~ #orcamento-bikcraft,
+#seguro:checked ~ #orcamento-seguro {
+  display: block;
+}
+
+.bicicleta-selecao,
+.seguro-selecao {
+  margin-top: 18px;
+}
+
+.selecao-bicicleta-lista .lista-item {
+  background: var(--cor-bg5);
+  border-radius: 8px;
+  padding: 12px;
+  width: fit-content;
+}
+
+.selecao-bicicleta-lista .lista-item label {
+  display: inline-block;
+}
+
+.selecao-bicicleta-lista .lista-item + .lista-item {
+  margin-top: 10px;
+}
+
+.bicicleta-info {
+  display: none;
+}
+
+.bicicleta-info img {
+  max-width: 100px;
+}
+
+.selecao-bicicleta-lista #bike-ground:checked ~ #ground-info,
+.selecao-bicicleta-lista #bike-cloudness:checked ~ #cloudness-info {
   display: grid;
-  grid-template-columns: max-content max-content;
-  gap: 12px;
+  grid-template-columns: auto 1fr;
+  align-items: end;
+  gap: 8px;
 }
 
-.bicicleta-info .informacoes {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  align-items: center;
-  gap: 4px 8px;
+.bicicleta-info .bicicleta-especificacoes li {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+  align-items: end;
 }
 
-.bicicleta-info .informacoes > img {
-  min-width: 12px;
-  max-width: 16px;
-  width: 100%;
-}
-
-.bicicleta-info > img {
-  min-width: 100px;
-  max-width: 120px;
-  width: 100%;
+.bicicleta-info .bicicleta-especificacoes li img {
+  max-width: 18px;
 }
