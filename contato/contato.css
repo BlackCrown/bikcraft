@@ -71,13 +71,6 @@
   border-bottom: 2px solid var(--cor-s9);
 }
 
-.formulario-input {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 32px;
-  padding: 60px 60px 0 0;
-}
-
 .formulario-input h6::before {
   content: "";
   display: inline-block;
@@ -111,16 +104,6 @@ input[type="text"],
 .mensagem-input textarea {
   height: 100px;
   padding: 16px 4px;
-}
-
-.formulario-dados label {
-  display: block;
-  width: fit-content;
-  padding: 0 6px;
-  margin-left: 8px;
-  margin-bottom: -10px;
-  position: relative;
-  background-color: var(--cor-bg2);
 }
 
 .formulario-dados input {

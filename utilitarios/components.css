@@ -97,6 +97,32 @@
   transform: translateX(4px);
 }
 
+.formulario-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 32px;
+  padding: 60px 60px 0 0;
+}
+
+.formulario-input label {
+  display: block;
+  width: fit-content;
+  padding: 0 6px;
+  margin-left: 8px;
+  margin-bottom: -10px;
+  position: relative;
+  background-color: var(--cor-bg2);
+}
+
+form input:focus {
+  border: 2px solid var(--cor-p1);
+  box-shadow: 1px 1px 3px 0.3px var(--cor-p1), -1px -1px 3px 0.3px var(--cor-p1);
+}
+
+.grid-2colums-size {
+  grid-column: 1/ -1;
+}
+
 @media (max-width: 1300px) {
   .btn {
     font-weight: 600;

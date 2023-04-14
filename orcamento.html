@@ -59,7 +59,6 @@
                 <input type="radio" id="bike-ground" name="bicicleta">
                 <label for="bike-ground">BIKE GROUND<span>R$2.900,00</span>
                 </label>
-
                 <div class="bicicleta-info" id="ground-info">
                   <ul class="bicicleta-especificacoes">
                     <li>
@@ -142,13 +141,23 @@
 
           <div class="orcamento-conteudo seguro-selecao" id="orcamento-seguro">
             <h4 class="fonte-PP">Selecione seu seguro</h4>
+            <ul class="selecao-seguro-lista">
+              <li class="lista-item">
+                <input type="radio" id="seguro-prata" name="seguro">
+                <label for="seguro-prata">PRATA</label>
+              </li>
+              <li class="lista-item">
+                <input type="radio" id="seguro-gold" name="seguro">
+                <label for="seguro-gold">GOLD</label>
+              </li>
+            </ul>
           </div>
         </section>
 
         <section class="orcamento-formulario fonte-rodape" aria-label="Orçamento formulário">
-          <div>
+          <div class="formulario-input formulario-dados">
             <h6 class="fonte-pequena">DADOS</h6>
-            <div class="nome-input">
+            <div class="nome-input grid-2colums-size">
               <label for="nome">Nome</label>
               <input type="text" id="nome" name="nome" placeholder="Seu nome" />
             </div>
@@ -173,12 +182,14 @@
             </div>
           </div>
 
-          <div>
-            <h6 class="fonte-pequena">ENTREGA</h6>
+          <div class="formulario-input formulario-entrega">
+            <h6 class="fonte-pequena grid-2colums-size">ENTREGA</h6>
             <div class="cep-input">
               <label for="cep">CEP</label>
               <input type="text" id="cep" name="cep" placeholder="00.000/000" />
+            </div>
 
+            <div class="numero-input">
               <label for="numero">Número</label>
               <input type="text" id="numero" name="numero" placeholder="Número da casa, prédio/ número" />
             </div>

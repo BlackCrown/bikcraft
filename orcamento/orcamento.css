@@ -16,7 +16,7 @@
 
 .orcamento-tipo {
   padding: 30px 0 30px 30px;
-  width: 275px;
+  width: fit-content;
 }
 
 .orcamento-tipo input {
@@ -33,7 +33,7 @@ p {
 }
 
 .orcamento-formulario {
-  background-color: var(--cor-bg1);
+  background-color: var(--cor-bg2);
   padding: 30px;
   border-radius: 0px 16px 16px 0px;
 }
@@ -78,11 +78,17 @@ p {
   margin-top: 18px;
 }
 
-.selecao-bicicleta-lista .lista-item {
+.selecao-bicicleta-lista .lista-item,
+.selecao-seguro-lista .lista-item {
   background: var(--cor-bg5);
   border-radius: 8px;
   padding: 12px;
   width: fit-content;
+}
+
+.selecao-seguro-lista {
+  display: flex;
+  gap: 18px;
 }
 
 .selecao-bicicleta-lista .lista-item label {
@@ -91,6 +97,14 @@ p {
   align-items: center;
   flex-direction: row;
   width: 225px;
+}
+
+.selecao-seguro-lista .lista-item label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  flex-direction: row;
+  width: 50px;
 }
 
 .selecao-bicicleta-lista .lista-item + .lista-item {
@@ -127,4 +141,10 @@ p {
 
 .bicicleta-info .bicicleta-especificacoes li img {
   max-width: 18px;
+}
+
+#orcamento .formulario-input {
+  gap: 18px 24px;
+  padding: 0px;
+  margin-bottom: 24px;
 }
