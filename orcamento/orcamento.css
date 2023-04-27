@@ -124,7 +124,7 @@ p {
 .selecao-bicicleta-lista #bike-storm:checked ~ #storm-info {
   display: grid;
   grid-template-columns: auto 1fr;
-  align-items: end;
+  align-items: center;
   gap: 8px;
 }
 
@@ -148,3 +148,55 @@ p {
   padding: 0px;
   margin-bottom: 24px;
 }
+/* #region Responsivo */
+
+@media (max-width: 840px) {
+  .orcamento-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 15px;
+  }
+
+  .selecao-bicicleta-lista #bike-ground:checked ~ #ground-info,
+  .selecao-bicicleta-lista #bike-cloudness:checked ~ #cloudness-info,
+  .selecao-bicicleta-lista #bike-storm:checked ~ #storm-info {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 750px) {
+  .orcamento-tipo {
+    padding: 30px 0 30px 30px;
+    width: 100%;
+    height: fit-content;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto auto auto; */
+  }
+
+  .orcamento-tipo h6 {
+    flex: 0 1 100%;
+    text-align: center;
+  }
+
+  /* .orcamento-conteudo {
+    grid-column: 3;
+    grid-row: 1;
+  } */
+
+  .orcamento-container {
+    grid-template-columns: 1fr;
+  }
+
+  .selecao-bicicleta-lista #bike-ground:checked ~ #ground-info,
+  .selecao-bicicleta-lista #bike-cloudness:checked ~ #cloudness-info,
+  .selecao-bicicleta-lista #bike-storm:checked ~ #storm-info {
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+  }
+}
+/* #endregion Responsivo */
