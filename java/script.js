@@ -9,15 +9,29 @@ if (document.location.href === "http://127.0.0.1:5500/") {
 
 //#region Nav Menu
 const navMenuLink = document.querySelectorAll(".nav-primaria li a");
-console.log(navMenuLink);
-navMenuLink.forEach(function (item) {
-  item.classList.add("ativarLink");
-});
 
-function linkAtivado(event) {
-  console.log("clicou em: " + event);
+function linkAtivado(link) {
+  const url = location.href;
+  if (url.includes(link.href)) {
+    link.classList.add("linkAtivo");
+  }
 }
 
-navMenuLink.addEventListener("click", linkAtivado);
+navMenuLink.forEach(linkAtivado);
 
 //#endregion Nav Menu
+
+//#region Selecao de item orcamento
+const parametros = new URLSearchParams(location.search);
+console.log(parametros);
+
+function orcamentoEscolha(parametro) {
+  const elemento = document.getElementById(parametro);
+  if (elemento) {
+    elemento.checked = true;
+  }
+}
+
+parametros.forEach(orcamentoEscolha);
+
+//#endregion Selecao de item orcamento
